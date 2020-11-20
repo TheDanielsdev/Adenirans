@@ -1,3 +1,9 @@
+.navbar{
+  position: sticky;
+  top: 3.25rem;
+}
+
+
 .imgtxt img{
     width: 40vh;
     height: 40vh;
@@ -8,14 +14,40 @@
    /*transition-property: all;*/
    transition-duration: 0.7s;
    transition-delay: 0s;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
     
     
 }
 
   .imgtxt img:hover{
-     /*transform: scale(1.2);*/
+     transform: scale(1.2);
      box-shadow: 20px 20px 50px 10p black;
   
-     
-}
+  }
+
+  .imgtxt p{
+    margin-left: 20vh;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.0em;
+  }
+
+  .imgtxtII img{
+    width: 40vh;
+    height: 40vh;
+    margin-left: 150vh;
+    
+    box-shadow: 20px 10px 10px 10px gray;
+   cursor: pointer;
+   
+   /*transition-property: all;*/
+   transition-duration: 0.7s;
+   transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+
+  }
+
+  .imgtxtII{
+    margin-top: 1px;
+    margin-bottom: 1000vh;
+  }
