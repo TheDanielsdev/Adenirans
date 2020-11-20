@@ -1,0 +1,21 @@
+.imgtxt img{
+    width: 40vh;
+    height: 40vh;
+    margin-left: 55px;
+    margin-top: 90px;
+    box-shadow: 20px 10px 10px 10px gray;
+   cursor: pointer;
+   /*transition-property: all;*/
+   transition-duration: 0.7s;
+   transition-delay: 0s;
+    transition-timing-function: ease-out;
+    
+    
+}
+
+  .imgtxt img:hover{
+     /*transform: scale(1.2);*/
+     box-shadow: 20px 20px 50px 10p black;
+  
+     
+}
