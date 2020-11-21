@@ -5,12 +5,13 @@
 
 
 .imgtxt img{
+    display: flex;
     width: 40vh;
     height: 40vh;
     margin-left: 55px;
     margin-top: 90px;
     box-shadow: 20px 10px 10px 10px gray;
-   cursor: pointer;
+    cursor: pointer;
    /*transition-property: all;*/
    transition-duration: 0.7s;
    transition-delay: 0s;
@@ -51,3 +52,39 @@
     margin-top: 1px;
     margin-bottom: 1000vh;
   }
+
+  .fimg{
+    margin-left: 25vh;
+    margin-top: 35vh;
+    height: 60vh;
+    width: 60vh;
+    box-shadow: 20px 10px 10px 10px grey;
+    transition-property: all;
+    transition-duration: 2s;
+    padding: 10vh;
+    
+  }
+
+  .fimg:hover{
+    box-shadow: 20px 20px 50px 10px black;
+    transform: scale(1.2);
+  }
+
+
+  .fimgII{
+    margin-left: 10vh;
+    margin-top: 35vh;
+    height: 60vh;
+    width: 60vh;
+    box-shadow: 20px 10px 10px 10px grey;
+    transition-property: all;
+    transition-duration: 2s;
+    padding: 10vh;
+  }
+
+  .fimgII:hover{
+    box-shadow: 20px 20px 50px 10px black;
+    transform: scale(1.2);
+
+  }
+  
