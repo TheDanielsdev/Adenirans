@@ -3,59 +3,14 @@
   top: 3.25rem;
 }
 
-
-.imgtxt img{
-    display: flex;
-    width: 40vh;
-    height: 40vh;
-    margin-left: 55px;
-    margin-top: 90px;
-    box-shadow: 20px 10px 10px 10px gray;
-    cursor: pointer;
-   /*transition-property: all;*/
-   transition-duration: 0.7s;
-   transition-delay: 0s;
-    transition-timing-function: ease-in-out;
-    
-    
+.page-header:hover{
+text-decoration: underline;
+color: blue;
 }
-
-  .imgtxt img:hover{
-     transform: scale(1.2);
-     box-shadow: 20px 20px 50px 10p black;
-  
-  }
-
-  .imgtxt p{
-    margin-left: 20vh;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 1.0em;
-  }
-
-  .imgtxtII img{
-    width: 40vh;
-    height: 40vh;
-    margin-left: 150vh;
-    
-    box-shadow: 20px 10px 10px 10px gray;
-   cursor: pointer;
-   
-   /*transition-property: all;*/
-   transition-duration: 0.7s;
-   transition-delay: 0s;
-    transition-timing-function: ease-in-out;
-
-  }
-
-  .imgtxtII{
-    margin-top: 1px;
-    margin-bottom: 1000vh;
-  }
 
   .fimg{
     margin-left: 25vh;
-    margin-top: 35vh;
+    margin-top: 10vh;
     height: 60vh;
     width: 60vh;
     box-shadow: 20px 10px 10px 10px grey;
@@ -65,15 +20,22 @@
     
   }
 
+    @media (orientation: portrait){
+      .fimg{
+        margin-left: 80px;
+      }
+    }
+
+
   .fimg:hover{
-    box-shadow: 20px 20px 50px 10px black;
+    box-shadow: 20px 20px 50px 10px rgb(0, 0, 0);
     transform: scale(1.2);
   }
 
 
   .fimgII{
     margin-left: 10vh;
-    margin-top: 35vh;
+    margin-top: 10vh;
     height: 60vh;
     width: 60vh;
     box-shadow: 20px 10px 10px 10px grey;
@@ -87,4 +49,94 @@
     transform: scale(1.2);
 
   }
+      /*the media querie for handset*/
+  @media (orientation: portrait){
+    .fimg:hover{
+      transform: none;
+
+    }
+
+    .fimgII:hover{
+     transform: none;
+    }
+  }
+
+  .footer{
+    background-color: rgb(41, 41, 41);
+    width: auto;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: -20px;
+    position: relative;
+  }
+
+  .footer img{
+    margin-top: 300px;
+    width: 150px;
+    height: 100px;
+    margin-left: -1170px;
+  }
+
+  @media (orientation: portrait){
+    .footer img{
+      margin-left: 55px;
+    }
+  }
+    
+  .footerII{
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    width: auto;
+    height: 70px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    
+  }
   
+  .footerII P{
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+
+   .dadpara p{
+    top: 100px;
+    margin-left: 300px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: -15px;
+    color: blue;
+  }
+  .mumpara p{
+    top: 100px;
+    margin-left: 900px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: -130px;
+    color: blue;
+  }
+  .dadpara a{
+    text-decoration: none;
+
+  }
+  .mumpara a{
+    text-decoration: none;
+  }
+  .dadpara p:hover{
+    color: rgb(89, 89, 255);
+  }
+  .mumpara p:hover{
+    color: rgb(89, 89, 255);
+  }
+
+  @media (orientation: portrait){
+    .dadpara p{
+      display: none;
+    }
+    .mumpara p{
+      display: none;
+    }
+  }
