@@ -20,6 +20,8 @@ color: blue;
     
   }
 
+   
+
     @media (orientation: portrait){
       .fimg{
         margin-left: 80px;
@@ -42,6 +44,7 @@ color: blue;
     transition-property: all;
     transition-duration: 2s;
     padding: 10vh;
+   
   }
 
   .fimgII:hover{
@@ -140,3 +143,105 @@ color: blue;
       display: none;
     }
   }
+
+  .center img{
+    margin-right: -25px;
+    margin-top: 8px;
+    
+  }
+
+  .center{
+    background-image: url(backgroundchrit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: -500vw;
+    
+    
+  }
+
+  .slct-language{
+    margin-right: 50px;
+    color: white;
+    padding: 10px;
+  }
+
+  .form label{
+    margin-left: 250px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+
+  .form input{
+    margin-left: 550px;
+    width: 200px;
+    column-span: 30;
+    border: 5px solid black;
+    box-shadow: 0px 10px 20px 0px black;
+    transition-property: all;
+    transition-duration: 2s;
+    
+  }
+
+   .form input:hover{
+     background: rgb(255, 241, 241);
+     border: 5px solid blue;
+     transform: scale(1.1);
+   }
+
+  .form button{
+    margin-left: 600px;
+    border: 5px solid black;
+    border-radius: 0px 10px 0px 10px;
+    background: linear-gradient(to right,rgb(52, 52, 255),rgb(156, 156, 156));
+    transition-property: all;
+    transition-duration: 2s;
+    font-weight: bold;
+   
+    
+  }
+
+  .form button:hover{
+    background: linear-gradient(to right,rgb(52, 52, 255),rgb(156, 156, 156));
+    border: 5px solid black;
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0px 10px 20px 0px;
+    
+  }
+
+  @media (orientation: portrait){
+    .form label{
+      margin-left: 50px;
+      margin-top: 200px;
+    }
+    .form input{
+      margin-left: 150px;
+    }
+    .form button{
+      margin-left: 200px;
+    }
+  }
+    /*styles for bio.html*/
+  .contain1 img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 60px;
+    padding: 10px;
+  }
+
+  .contain2 img{
+    display: inline;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+  
