@@ -1,3 +1,8 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+
 .navbar{
   position: sticky;
   top: 3.25rem;
@@ -223,25 +228,86 @@ color: blue;
       margin-left: 200px;
     }
   }
-    /*styles for bio.html*/
-  .contain1 img{
-    float: left;
-    width: 250px;
-    height: 250px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-left: 60px;
-    padding: 10px;
-  }
-
-  .contain2 img{
-    display: inline;
-    width: 250px;
-    height: 250px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 60px;
-  }
-
+    /*image styles for bio.html*/
   
+  .bio-img-contain1{
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  .bio-img-contain1 img{
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+  }
+
+  .bio-img-contain1 p{
+    font-size: 1em;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    margin-left: 30px;
+    padding-right: 950px;
+    margin-top: 60px;
+
+    
+  }
+
+  .bio-img-contain2{
+    margin-left: 450px;
+    margin-top: -570px;
+  }
+
+  .bio-img-contain2 img{
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+  }
+
+  .bio-img-contain2 p{
+    font-size: 1em;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    margin-left: 20px;
+    padding-right: 80vh;
+    margin-top: 60px;
+    
+  }
+
+.bio-img-contain3{
+  margin-left: 900px;
+    margin-top: -570px;
+  
+}
+
+.bio-img-contain3 img{
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.bio-img-contain3 p{
+  font-size: 1em;
+  font-weight: bold;
+  overflow: hidden;
+  display: block;
+  margin-left: 20px;
+  padding-right: 20vh;
+  margin-top: 60px; 
+}
+
+@media (orientation: portrait){
+  .bio-img-contain1 p .bio-img-contain2 p .bio-img-contain3 p{
+    display: none;
+    align-items: center;
+  }
+
+}
+
+.bio-parags{
+  font-weight: bold;
+}
