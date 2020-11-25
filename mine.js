@@ -1,9 +1,14 @@
-const btn_one = document.querySelector('.btn_one').addEventListener('click',function(ev){
-    alert('Thanks for submitting')
-    console.log(ev.type)
-})
+/*FOR THE EMAIL BUTTON*/
+function sub(){
+    if(document.querySelector('.inpt').value==""){
+        alert('Enter Email');
+    
+    }
+    else{
+        alert('Thanks For Submiting')
+    }
+}
+
+const btn_one = document.querySelector('.btn_one').addEventListener('click',sub)
 
 
-/*inpt = document.querySelector('.inpt').addEventListener('input',function(){
-    inpt.textContext = this.value;
-})*/
